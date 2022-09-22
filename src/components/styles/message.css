@@ -1,0 +1,27 @@
+.message-winner {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgb(243, 247, 5);
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+  letter-spacing: 1.5;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.message-winner.not-active {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .message-winner {
+    text-shadow: none;
+    color: rgb(251, 247, 6);
+    font-size: 22px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
