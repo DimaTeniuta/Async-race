@@ -1,0 +1,143 @@
+.container-controller {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.controller-create {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.controller-update {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.controller-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.input {
+  width: 150px;
+  height: 25px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color:  #edf7fa;
+}
+
+.input-text-update.not-active {
+  background-color:  var(--color-grey);
+}
+
+.input:focus {
+  outline-color: var(--color-border-blue);
+}
+
+.input-color {
+  width: 40px;
+  height: 25px;
+  border-radius: 3px;
+  background-color: #e2ebec;
+}
+
+.input-color:hover {
+  cursor: pointer;
+}
+
+.btn-create {
+  border-bottom: 4px solid var(--color-border-blue);
+  background-color: var(--color-blue);
+}
+
+.btn-create.not-active {
+  background-color:  var(--color-grey);
+  cursor: not-allowed;
+}
+
+.btn-create.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-blue);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}
+
+.btn-update {
+  border-bottom: 4px solid var(--color-border-blue);
+  background-color: var(--color-blue);
+}
+
+.btn-update.not-active {
+  background-color:  var(--color-grey);
+  cursor: not-allowed;
+}
+
+.btn-update.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-blue);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}
+
+.btn-race {
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-green);
+}
+
+.btn-race.not-active {
+  background-color: var(--color-grey);
+}
+
+.btn-race.not-active:hover {
+  cursor: not-allowed;
+}
+
+.btn-race.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-green);
+}
+
+.btn-reset {
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-green);
+}
+
+.btn-reset.not-active {
+  background-color: var(--color-grey);
+}
+
+.btn-reset.not-active:hover {
+  cursor: not-allowed;
+}
+
+.btn-reset.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-green);
+}
+
+.btn-generate-cars {
+  width: 150px;
+  border-bottom: 4px solid var(--color-border-blue);
+  background-color: var(--color-blue);
+}
+
+.btn-generate-cars.not-active {
+  background-color:  var(--color-grey);
+  cursor: not-allowed;
+}
+
+.btn-generate-cars.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-blue);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}

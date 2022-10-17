@@ -1,0 +1,77 @@
+.main {
+  display: block
+}
+
+.main.not-active {
+  display: none;
+}
+
+.container-garage {
+  padding: 30px 0 0 10px;
+}
+
+.container-garage__title {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page {
+  margin: 10px 0 5px 0;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wrap-cars {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-btn-garage {
+  display: flex;
+  column-gap: 10px;
+  margin: 10px 0 0 0;
+}
+
+.btn-prev-garage {
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-green);
+}
+
+.btn-prev-garage.not-active {
+  background-color: var(--color-grey);
+}
+
+.btn-prev-garage.not-active:hover {
+  cursor: not-allowed;
+}
+
+.btn-prev-garage.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}
+
+.btn-next-garage {
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-green);
+}
+
+.btn-next-garage.not-active {
+  background-color: var(--color-grey);
+}
+
+.btn-next-garage.not-active:hover {
+  cursor: not-allowed;
+}
+
+.btn-next-garage.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}

@@ -1,1 +1,3 @@
-# Async-race
+- Нужно скачать репозиторий с [JSON-Server](https://github.com/DimaTeniuta/async-race-api)
+- Запустить JSON-Server
+- Запустить [Async-race](https://rolling-scopes-school.github.io/dimateniuta-JSFE2022Q1/async-race/)

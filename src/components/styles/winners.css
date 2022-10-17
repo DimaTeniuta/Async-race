@@ -1,0 +1,192 @@
+.winners {
+  display: block
+}
+
+.winners.not-active {
+  display: none;
+}
+
+.winners__count {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.winners__page {
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.winners__wrap-titles {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  max-width: 500px;
+  height: 40px;
+  margin: 20px 0 0 0;
+  padding: 0 5px;
+  background-color: #1a5dc2;
+  font-weight: 500;
+}
+
+.win-btn {
+  height: 40px;
+  padding: 0 5px;
+  color: var(--color-white);
+  background-color: #1a5dc2;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.win-btn:hover {
+  cursor: pointer;
+}
+
+.car-winner-name {
+  width: 100px;
+  text-align: center;
+}
+
+.wins-btn {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 10px;
+}
+
+.best-time {
+  display: flex;
+  align-items: center;
+}
+
+.winners-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 30px;
+  max-width: 480px;
+  margin: 20px 0 0 0;
+  padding: 0 5px;
+}
+
+.wrap-btn-winner {
+  display: flex;
+  column-gap: 10px;
+  margin: 30px 0 0 0;
+}
+
+.btn-prev-win {
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-green);
+}
+
+.btn-prev-win.not-active {
+  background-color: var(--color-grey);
+}
+
+.btn-prev-win.not-active:hover {
+  cursor: not-allowed;
+}
+
+.btn-prev-win.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}
+
+.btn-next-win {
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-green);
+}
+
+.btn-next-win.not-active {
+  background-color: var(--color-grey);
+}
+
+.btn-next-win.not-active:hover {
+  cursor: not-allowed;
+}
+
+.btn-next-win.not-active:active {
+  height: 25px;
+  margin: 0;
+  border-bottom: 4px solid var(--color-border-green);
+  background-color: var(--color-grey);
+  transform: scale(1.0);
+}
+
+.winner {
+  display: grid;
+  grid-template-columns: 30px 50px 100px 100px 150px;
+  column-gap: 32px;
+  width: 480px;
+  padding: 0 10px;
+}
+
+.winner__number {
+  display: flex;
+  align-items: center;
+}
+
+.winner__car {
+display: flex;
+justify-content: flex-end;
+}
+
+.winner-svg {
+  width: 40px;
+  height: 30px;
+}
+
+.winner__name {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.winner__wins {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.winner__time {
+  display: flex;
+  align-items: center;
+}
+
+.wins-up {
+  display: none;
+}
+
+.wins-up.active {
+  display: block;
+}
+
+.wins-down {
+  display: none;
+}
+
+.wins-down.active {
+  display: block;
+}
+
+.time-up {
+  display: none;
+}
+
+.time-up.active {
+  display: block;
+}
+
+.time-down {
+  display: none;
+}
+
+.time-down.active {
+  display: block;
+}
+
